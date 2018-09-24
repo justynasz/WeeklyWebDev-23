@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Leckerli+One|Montserrat:400,600,800&amp;subset=latin-ext"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/da23b44176.js"></script>
+    <link href="dist/css/lightbox.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="shortcut icon" href="">
+    <title>Zadanie 23 - Weekly WebDev Challenge</title>
+</head>
+
+<body>
+    <header class="page-header">
+        <div class="header__wrapper">
+            <div class="site-nav__trigger">
+                <a class="logo">
+                    <span class="text--blue">&#33;st </span>
+                    <span>Agency</span>
+                </a>
+                <div class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+            <nav class="site-nav">
+                <ul class="site-nav__menu">
+                    <li class="site-nav__item"><a class="site-nav__link" href="#home">Home</a></li>
+                    <li class="site-nav__item"><a class="site-nav__link" href="#about">About us</a></li>
+                    <li class="site-nav__item"><a class="site-nav__link" href="#services">Services</a></li>
+                    <li class="site-nav__item"><a class="site-nav__link" href="#profile">Profile</a></li>
+                    <li class="site-nav__item"><a class="site-nav__link" href="#client">Client</a></li>
+                    <li class="site-nav__item"><a class="site-nav__link" href="#blog">Blog</a></li>
+                    <li class="site-nav__item"><a class="site-nav__link" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HOME -->
+    <section class="home" id="home">
+        <div class="overlay">
+            <div class="home__wrapper">
+                <p class="title title--margin">Hello</p>
+                <h1 class="heading">My Name is <span class="text--blue">John Does</span></h1>
+                <h2 class="sub-heading">Ceo | !st Agency</h2>
+                <p class="content__text content__text--wide content__text--margin">Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <button class="btn btn--blue">Click here</button>
+            </div>
+            <img class="model" src="images/model.png" alt="an athletic young man">
+        </div>
+    </section>
+
+    <!-- ABOUT US -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <p class="title title--margin">Who we are?</p>
+                <h2 class="subtitle subtitle--wide">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                <p class="content__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.</p>
+                <button class="btn btn--dark">Click here</button>
+            </div>
+            <div>
+                <p class="content__text content__text--wide margin-top">Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header section-header--center">
+                <p class="title">Services</p>
+                <h2 class="subtitle subtitle--big">What I Do..</h2>
+            </div>
+            <div class="services__wrapper">
+                <div class="services__item">
+                    <img class="icon icon__services" src="images/icon1.svg" alt="icon 1">
+                    <h3 class="services__item-heading">Lorem ipsum dolor sit amet</h3>
+                    <p class="services__item-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                        nostrud.</p>
+                </div>
+                <div class="services__item">
+                    <img class="icon icon__services" src="images/icon2.svg" alt="icon 2">
+                    <h3 class="services__item-heading">Lorem ipsum dolor sit amet</h3>
+                    <p class="services__item-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                        nostrud.</p>
+                </div>
+                <div class="services__item">
+                    <img class="icon icon__services" src="images/icon3.svg" alt="icon 3">
+                    <h3 class="services__item-heading">Lorem ipsum dolor sit amet</h3>
+                    <p class="services__item-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                        nostrud.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROFILE -->
+    <section class="profile" id="profile">
+        <div class="profile__container">
+            <div class="section-header section-header--center">
+                <p class="title title--grey">Profile</p>
+                <h2 class="subtitle subtitle--big subtitle--dark margin-bottom">I Make Beautiful Thinks</h2>
+            </div>
+            <div class="profile__columns">
+                <div class="profile__column">
+                    <div class="profile__img1">
+                        <a data-lightbox="images"  href="images/img01.jpg" data-title="img 1"><img src="images/img01.jpg" alt="image 1"></a>
+                    </div>
+                    <div class="row">
+                        <div class="profile__img2">
+                            <a data-lightbox="images" href="images/img02.jpg" data-title="img 2">
+                                <img src="images/img02.jpg" alt="image 2">
+                            </a>
+                        </div>
+
+                        <div class="profile__img3">
+                            <a data-lightbox="images" href="images/img03.jpg" data-title="img 3"><img src="images/img03.jpg"
+                                alt="image 3"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="profile__column">
+                    <div class="profile__img4">
+                        <a data-lightbox="images" href="images/img04.jpg" data-title="img 4"><img
+                            src="images/img04.jpg" alt="image 4"></a>
+                    </div>
+                    <div class="col">
+                        <div class="profile__img5">
+                            <a data-lightbox="images" href="images/img05.jpg" data-title="img 5"><img
+                                src="images/img05.jpg" alt="image 5"></a>
+                        </div>
+                        <div class="profile__img6">
+                            <a data-lightbox="images" href="images/img06.jpg" data-title="img 6">
+                                <img src="images/img06.jpg" alt="image 6">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CLIENT -->
+    <section class="client" id="client">
+        <div class="overlay">
+            <div class="container">
+                <div class="section-header section-header--center">
+                    <p class="title">Client</p>
+                    <h2 class="subtitle  subtitle--big">What I Do..</h2>
+                    <p class="content__text content__text--wide text--center">Lorem ipsum dolor
+                        sit amet, consectetur
+                        adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="client__logos">
+                    <div class="client__logo"><img src="images/unicorns.png" alt="unicorns logo"></div>
+                    <div class="client__logo"><img src="images/atlantis.png" alt="atlantis logo">
+                    </div>
+                    <div class="client__logo"><img src="images/great-falls.png" alt="great-falls logo">
+                    </div>
+                    <div class="client__logo"><img src="images/norsemen.png" alt="norsemen logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOG -->
+    <section class="blog" id="blog">
+        <div class="container">
+            <div class="blog__main">
+                <div class="section-header">
+                    <p class="title title--grey">Blog</p>
+                    <h2 class="subtitle subtitle--big subtitle--dark">I write Beautiful Things</h2>
+                    <p class="content__text content__text--wide content__text--dark content__text--margin">Lorem ipsum
+                        dolor sit amet,
+                        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua.</p>
+                </div>
+                <div class="blog__articles">
+                    <article class="article1">
+                        <p class="article__content ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor
+                            incididunt ut
+                            labore
+                            et dolore magna aliqua.</p>
+                        <p class="date">11 November</p>
+                    </article>
+                    <article class="article2">
+                        <p class="date date--dark">11 November</p>
+                        <h2 class="article__title article__title--dark">Lorem ipsum dolor</h2>
+                    </article>
+                    <article class="article3">
+                        <p class="date">11 November</p>
+                        <h2 class="article__title">Lorem ipsum dolor</h2>
+                    </article>
+                </div>
+            </div>
+            <aside class="blog__aside">
+                <article class="article4">
+                    <div class="overlay">
+                        <p class="date">11 November</p>
+                        <h2 class="article__title article__title--big">Lorem ipsum dolor</h2>
+                        <p class="article__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod
+                            tempor incididunt ut
+                            labore
+                            et dolore magna aliqua.</p>
+                    </div>
+                </article>
+                <article class="article5">
+                    <p class="date">11 November</p>
+                    <h2 class="article__title article__title--big">Lorem ipsum dolor</h2>
+                    <p class="article__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut
+                        labore
+                        et dolore magna aliqua.</p>
+                </article>
+            </aside>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <div class="contact" id="contact">
+        <div class="overlay container">
+            <div class="contact__container">
+                <div class="address">
+                    <p class="title">Contacts..</p>
+                    <h2 class="subtitle subtitle--big subtitle--margin">Address Info</h2>
+                    <ul class="address-info">
+                        <li class="address-info__item list-item__email">
+                            <p class="address__text address__text--bold">Email</p>
+                            <p class="address__text">free@psdfreebies.com</p>
+                        </li>
+                        <li class="address-info__item list-item__phone">
+                            <p class="address__text address__text--bold">Call Us!</p>
+                            <p class="address__text">+123 456 7890</p>
+                            <p class="address__text">+123 456 7890</p>
+                        </li>
+                        <li class="address-info__item list-item__pointer">
+                            <p class="address__text address__text--bold">Address</p>
+                            <address class="address__text">
+                                123, Main Road, New City,
+                                <br> My Country 123456
+                            </address>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contact-form">
+                    <h2 class="subtitle subtitle--big subtitle--margin">Get in Touch</h2>
+                    <form class="contact-form__items">
+                        <div class="contact-form__item">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name" required>
+                        </div>
+                        <div class="contact-form__item">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+                        <div class="contact-form__item">
+                            <label for="phone">Phone</label>
+                            <input type="tel" name="phone" id="phone" required>
+                        </div>
+                        <div class="contact-form__item">
+                            <label for="msg">Message</label>
+                            <textarea name="msg" id="msg" required></textarea>
+                        </div>
+                        <button class="btn btn--dark-blue btn--margin" type="submit" class="">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="social-media">
+                <ul class="social-media__items">
+                    <li class="icon social-media__item">
+                        <i class="fa fa-facebook-f"></i>
+                    </li>
+                    <li class="icon social-media__item">
+                        <i class="fab fa-google-plus-g"></i>
+                    </li>
+                    <li class="icon social-media__item">
+                        <i class="fab fa-vk"></i>
+                    </li>
+                    <li class="icon social-media__item">
+                        <i class="fa fa-youtube"></i>
+                    </li>
+                    <li class="icon social-media__item">
+                        <i class="fab fa-linkedin-in"></i>
+                    </li>
+                    <li class="icon social-media__item">
+                        <i class="fab fa-digg"></i>
+                    </li>
+                    <li class="icon social-media__item">
+                        <i class="fab fa-deviantart"></i>
+                    </li>
+                </ul>
+            </div>
+            <footer class="footer">
+                <p class="footer__text ">Designed By PSDFreebies.com</p>
+                <p class="footer__text text--uppercase">copyright 2018</p>
+            </footer>
+
+        </div>
+    </div>
+    <div class="page-top">
+        <i class="fas fa-angle-double-up"></i>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="dist/js/lightbox.js"></script>
+    <script>
+        $('.burger').on('click', function () {
+
+            $(this).toggleClass('active');
+            $('.site-nav').toggleClass('active');
+        })
+
+        $('a[href^="#"]').on('click', function () {
+            $('.burger').removeClass('active');
+            $('.site-nav').removeClass('active');
+
+            let $href = $.attr(this, 'href');
+            $('html, body').animate({
+                scrollTop: $($href).offset().top
+            }, 750);
+        })
+        $(window).on('scroll', function () {
+            if ($(window).scrollTop() > 100) {
+                $('.page-header').addClass('nav-sticky');
+                $('.page-top').css("display", "block");
+            } else {
+                $('.page-header').removeClass('nav-sticky');
+                $('.page-top').css("display", "none");
+            }
+        })
+
+
+        $('.page-top').on('click', function () {
+            $('html, body').animate({
+                scrollTop: $('#home').offset().top
+            }, 750);
+            // window.location.hash = $('a[href="#home"]').attr('href');
+        });
+
+        $('.home .btn, .about .btn').on('click', function () {
+            $('html, body').animate({
+                scrollTop: $('#profile').offset().top
+            }, 750);
+        })
+    </script>
+</body>
+
+</html>
