@@ -405,8 +405,6 @@
     }
 
     .site-nav__item {
-        background-color: transparent;
-        border-bottom: none;
         border-top: 7px solid transparent;
         line-height: 50px;
         text-align: center;
@@ -414,10 +412,19 @@
 
     .site-nav__link {
         display: inline-block;
+        background-color: transparent;
+        border-bottom: none;
     }
 
     .site-nav__item:hover {
         border-top: 7px solid #0081ff;
+    }
+
+    .site-nav__link:hover {
+        background-color: transparent;
+        color: #fff;
+        font-weight: normal;
+        border-bottom: none;
     }
 
     .home {

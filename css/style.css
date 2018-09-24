@@ -167,11 +167,6 @@ body {
     cursor: pointer;
 }
 
-.site-nav__item:hover {
-    background-color: #bbb;
-    color: #0081ff;
-}
-
 .site-nav__link {
     display: block;
     color: white;
@@ -189,7 +184,6 @@ body {
     color: #0081ff;
     font-weight: bold;
 }
-
 
 
 /*  HOME  */
